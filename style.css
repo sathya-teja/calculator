@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif
+}
+body{
+    background:#aff4fb ;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    
+}
+
+
+.nav{
+    display: flex;
+    
+}
+
+.nav .logo{
+   display: flex;
+   align-items:start;
+   font-size:6vh;
+   font-weight: 800;
+   color:#1587e4;
+   padding-left: 2rem;
+   
+   
+}
+.container{
+    background: linear-gradient(#aff4fb,#5ba8e6);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #242930;
+    box-shadow: -8px -8px 15px rgba(255,255,255, 0.1),5px 5px 15px rgba(0,0,0,0.2 );
+
+    
+
+}
+
+input {
+    width: 320px;
+    border:#ffffff;
+    padding: 24px;
+    margin: 10px;
+    background: #272f39;
+    box-shadow: none; /* Corrected 'rgbs' to 'rgba' */
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color:aqua;
+}
+
+
+button {
+    border:#ffffff;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background:none;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+
+}
+.entered{
+    color: white;
+}
+.equalBtn{
+    background-color:coral;
+}
+.operator{
+    color:rgb(43, 226, 153);
+}
+footer{
+    background-color: #37414f;
+    color:whitesmoke ;
+}
+footer .section_container{
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+}
+footer h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.social_icons i{
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+footer p{
+    font-style: italic;
+
+}
+.copy{
+    font-size: .7rem;
+    justify-self: flex-start;
+    padding: 2vh;
+}
